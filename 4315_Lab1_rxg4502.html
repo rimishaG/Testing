@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--Rimisha Ghorsaini
+    1001684502-->
+<html lang="en">
+<head>
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Radiant Beauty Survey Form</title>
+   <style>
+        body{background-color:#F7FCFE;font-family:Times New Roman, Arial;margin-right:auto;margin-left:auto;}
+        h1{text-align:center;color:#C71585;}
+        h2{text-align:center;color:#C71585;}
+	 div{float:left; width:70%;color:#800080;}
+       img{width:28%;} 
+       table{margin-right:auto;margin-left:auto;}
+       input[type=number]{width:3%;}
+	li{color:#800080;}
+       ul{margin-right:auto;margin-left:auto;max-width:60%;}
+
+   </style>
+   </head>
+<body>
+   <h1>Thank You for Choosing Radiant Beauty</h1>
+    <div>
+       You have been randomly selected to participate in our Customer Satisfaction Survey.
+	Please tell us a little bit about yourself by filling in the requested information at the top of the survey, 
+       then respond to the survey opinion statements based on your experiences with Radiant Beauty. 
+       To show our appreciation, we will send you a $5 Radiant Beauty Collection's eGift Certificate via e-mail. 
+    </div>
+  <img src="glam.jpg" alt="Beauty">
+
+<hr>
+
+<h2> Personal Information </h2> 
+<form>
+ <table>
+ 	<tr>
+        <td>First Name:</td><td><input type="text" name="fname" required></td>
+	  <td>Last Name: </td><td><input type="text" name="lname" required></td>
+	</tr>
+
+	<tr>
+	  <td>E-mail Address: </td><td><input type="email" name="ename" placeholder="Joe@abc.com" required ></td> 
+     
+  	</tr>
+
+      <tr>
+	  <td>Gender: </td><td>Male <input type="radio" name="gender" value="male"> 
+          &nbsp; Female<input type="radio" name="gender" value="female" required></td>
+       
+  	</tr>
+
+      <tr>
+          <td>Age Group: </td> <td colspan="2">Under 21<input type="radio" name="age" value="under21">
+           21-40 <input type="radio" name="age" value="21-40">
+           Over 40 <input type="radio" name="age" value="over40" required></td>     
+     </tr>
+
+</table>
+
+<hr>
+<h2>Please respond to the opinion statements using the following scale:</h2>
+    <ul>
+       <li>1=Strongly Agree</li>
+	 <li>2=Somewhat Agree</li>
+	 <li>3=Neither Agree nor Disagree</li>
+	 <li>4=Somewhat Disagree</li>
+	 <li>5=Strongly Disagree</li>
+ </ul>
+<br>
+	<ol>
+		<li>Radiant Beauty customer services is highly likeable.<input type="number" min="1" max="5" value="1"></li>
+       	<li>Radiant Beauty carries top high quality products.<input type="number" min="1" max="5" value="1"></li>
+		<li>Radiant Beauty products are reasonablebly priced.<input type="number" min="1" max="5" value="1"></li>
+		<li>Radiant Beautys serves only highly reliable and sensitive products.<input type="number" min="1" max="5" value="1"></li>
+		<li>Overall, I am very satisfied with Radiant Beauty.<input type="number" min="1" max="5" value="1"></li>
+	</ol>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+
+</form>
+    
+ </body>
+</html>
+  
